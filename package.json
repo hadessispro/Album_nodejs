@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch":"node-sass --watch resources/src/views/sass --output resources/src/public",
-    "start": "nodemon --inspect resources/src/index.js",
+    "watch": "node-sass --watchs src/resources/views/sass --output src/public",
+    "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "express-handlebars": "^7.1.2",
+    "mongoose": "^8.0.3",
     "morgan": "^1.10.0",
     "node-sass": "^9.0.0",
     "nodemon": "^3.0.2"
